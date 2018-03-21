@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<roff version="2013.7000" creator="RMS">
+<comp type="WellsComp" major="TRUE" objid="000000000000000000000d1c0000000053c6526c0000002a">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name></name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<params type="TreeMetaDataParams" name="Modelling">
+<filtereditems><item>2OV 0</item>
+</filtereditems>
+</params>
+<params type="TreeMetaDataParams" name="Clipboard">
+<filtereditems><item>2CH 0</item>
+</filtereditems>
+</params>
+<params type="TreeMetaDataParams" name="Library">
+<filtereditems><item>2CH 0</item>
+</filtereditems>
+</params>
+<params type="CylinderTemplatesParams">
+<currenttemplatename></currenttemplatename>
+<params type="CylinderTemplateParams" name="Default">
+<cylsizefactor>0.02</cylsizefactor>
+<cylconstantsize>FALSE</cylconstantsize>
+<cylcomplexity>0</cylcomplexity>
+<cyltexturequality>0.7</cyltexturequality>
+<cylmaxchunksize>2048</cylmaxchunksize>
+<cylmdresolution>1</cylmdresolution>
+<cylsizelogrun></cylsizelogrun>
+<cylsizelogrunobjid>000000000000000000000000000000000000000000000000</cylsizelogrunobjid>
+<cylsizemultistep></cylsizemultistep>
+<cylsizelogcurvealias></cylsizelogcurvealias>
+<cylsizelimitsmin>UNDEF</cylsizelimitsmin>
+<cylsizelimitsmax>UNDEF</cylsizelimitsmax>
+<cylcolortablename></cylcolortablename>
+<cylcolorlogrun></cylcolorlogrun>
+<cylcolorlogrunobjid>000000000000000000000000000000000000000000000000</cylcolorlogrunobjid>
+<cylcolormultistep></cylcolormultistep>
+<cylcolorlogcurvealias></cylcolorlogcurvealias>
+<cylcolorlimitsmin>UNDEF</cylcolorlimitsmin>
+<cylcolorlimitsmax>UNDEF</cylcolorlimitsmax>
+</params>
+</params>
+<params type="ReferencesParams">
+<params type="ReferenceParams">
+<name>MD_RKB</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>MD_RKB</namedreferencetype>
+<namedquant>DEPTH</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>20</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>MD_MSL</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>MD_MSL</namedreferencetype>
+<namedquant>DEPTH</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>20</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>MD_GL</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>MD_GL</namedreferencetype>
+<namedquant>DEPTH</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>20</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>MD_UD</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>MD_UD</namedreferencetype>
+<namedquant>DEPTH</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>20</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>TVD_RKB</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>TVD_RKB</namedreferencetype>
+<namedquant>DEPTH</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>10</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>TVD_MSL</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>TVD_MSL</namedreferencetype>
+<namedquant>DEPTH</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>10</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>TVD_GL</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>TVD_GL</namedreferencetype>
+<namedquant>DEPTH</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>10</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>TVD_UD</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>TVD_UD</namedreferencetype>
+<namedquant>DEPTH</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>10</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>TWT</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>TWT</namedreferencetype>
+<namedquant>SEISMICTIME</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>10</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>TVT-D</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>TVTD</namedreferencetype>
+<namedquant>DIMENSIONLESS</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>5</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>TVT%-D</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>TVTPD</namedreferencetype>
+<namedquant>DIMENSIONLESS</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>1</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>TST-D</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>TSTD</namedreferencetype>
+<namedquant>DIMENSIONLESS</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>500</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>TST%-D</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>TSTPD</namedreferencetype>
+<namedquant>DIMENSIONLESS</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>500</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>ELEVATION</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>ELEVATION</namedreferencetype>
+<namedquant>DEPTH</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>10</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>VSECT</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>VSECT</namedreferencetype>
+<namedquant>DIMENSIONLESS</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>10</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="ReferenceParams">
+<name>FlattenRef</name>
+<referenceid>000000000000000000000000000000000000000000000000</referenceid>
+<namedreferencetype>FLATTENREF</namedreferencetype>
+<namedquant>DIMENSIONLESS</namedquant>
+<lableformat></lableformat>
+<externalid><item>000000000000000000000000000000000000000000000000</item>
+</externalid>
+<depthscale>10</depthscale>
+<screenheight>100</screenheight>
+<basereferenceid>000000000000000000000000000000000000000000000000</basereferenceid>
+</params>
+<params type="StratRefParams" name="__CorrRef">
+<uncertain></uncertain>
+<elapsedrealtime>0</elapsedrealtime>
+<elapsedcputime>0</elapsedcputime>
+<tableoffset>0</tableoffset>
+<surfreprfloat>FALSE</surfreprfloat>
+<description></description>
+<opentime></opentime>
+<refcalctvt>TRUE</refcalctvt>
+<refcalctst>FALSE</refcalctst>
+<refcalcstructure>FALSE</refcalcstructure>
+<refcalctraj>TRUE</refcalctraj>
+<gridmodelobjids></gridmodelobjids>
+<logrunname>REFERENCES</logrunname>
+<resolution>0.5</resolution>
+<trajectoryselection><use_set>FALSE</use_set>
+<set_name></set_name>
+</trajectoryselection>
+</params>
+</params>
+<params type="GroupingsParams">
+<autogroupsize>100</autogroupsize>
+<params type="GroupingParams" name="Type">
+<default>FALSE</default>
+<groups><item>Producer</item>
+<item>Injector</item>
+<item>Undefined</item>
+</groups>
+<colors><item>1595367423</item>
+<item>3204448511</item>
+<item>0</item>
+</colors>
+</params>
+<params type="GroupingParams" name="Status">
+<default>FALSE</default>
+<groups><item>Drilled</item>
+<item>Planned</item>
+<item>Undefined</item>
+</groups>
+<colors><item>224698367</item>
+<item>711884799</item>
+<item>0</item>
+</colors>
+</params>
+</params>
+<params type="FieldConstraintParams">
+<maxdls>UNDEF</maxdls>
+<straightlength>UNDEF</straightlength>
+<straightmaxincl>UNDEF</straightmaxincl>
+<kickofftoolface>UNDEF</kickofftoolface>
+<kickofflength>UNDEF</kickofflength>
+<kickoffrate>UNDEF</kickoffrate>
+<progressivekop>FALSE</progressivekop>
+<progressivekoptype>0</progressivekoptype>
+<progressivekopinitialdls>UNDEF</progressivekopinitialdls>
+<progressivekopsteplength>UNDEF</progressivekopsteplength>
+<progressivekopdlsstep>UNDEF</progressivekopdlsstep>
+<budopreferreddls>UNDEF</budopreferreddls>
+<targetextensiondls>UNDEF</targetextensiondls>
+<targetextensiontf>UNDEF</targetextensiontf>
+<params type="RefDepthParams">
+<value>UNDEF</value>
+<namedreftype>UNDEFINED_REF_DEPT</namedreftype>
+<refobjid>000000000000000000000000000000000000000000000000</refobjid>
+<refobjpath></refobjpath>
+</params>
+<params type="RefDepthParams">
+<value>UNDEF</value>
+<namedreftype>UNDEFINED_REF_DEPT</namedreftype>
+<refobjid>000000000000000000000000000000000000000000000000</refobjid>
+<refobjpath></refobjpath>
+</params>
+<params type="RefDepthParams">
+<value>UNDEF</value>
+<namedreftype>UNDEFINED_REF_DEPT</namedreftype>
+<refobjid>000000000000000000000000000000000000000000000000</refobjid>
+<refobjpath></refobjpath>
+</params>
+<params type="RefDepthParams">
+<value>UNDEF</value>
+<namedreftype>UNDEFINED_REF_DEPT</namedreftype>
+<refobjid>000000000000000000000000000000000000000000000000</refobjid>
+<refobjpath></refobjpath>
+</params>
+</params>
+<params type="FieldParams">
+<name></name>
+<type></type>
+<verticaldatum></verticaldatum>
+<uncertantymodel>WOLFF_DE_WARDT</uncertantymodel>
+<searchradius>2.5</searchradius>
+<searchincrease>0.1</searchincrease>
+<safetyradius>0</safetyradius>
+<safetyincrease>0</safetyincrease>
+<safetyfactor>2</safetyfactor>
+<safetymodel>SAFETY_INCREASE</safetymodel>
+<safetyuseuncertainty>TRUE</safetyuseuncertainty>
+<safetyuseorigin>TRUE</safetyuseorigin>
+<safetymdbased>TRUE</safetymdbased>
+<holesizep>FALSE</holesizep>
+<defaultholesize>0</defaultholesize>
+<defaulttargetshape>POLYGON</defaulttargetshape>
+<defaulttargetwidth>UNDEF</defaulttargetwidth>
+<defaulttargetheight>UNDEF</defaulttargetheight>
+<defaulttargetradius>UNDEF</defaulttargetradius>
+<defaultsurveytool>000000000000000000000000000000000000000000000000</defaultsurveytool>
+<defaultiscwsatool>000000000000000000000000000000000000000000000000</defaultiscwsatool>
+<geometricallogs>0</geometricallogs>
+<horizonintersections></horizonintersections>
+<horizonintersectionpaths></horizonintersectionpaths>
+<tdconversionobjid>000000000000000000000000000000000000000000000000</tdconversionobjid>
+<secondarysafetyradius>0</secondarysafetyradius>
+<secondarysafetyincrease>0</secondarysafetyincrease>
+<secondarysafetyfactor>3</secondarysafetyfactor>
+<secondarysafetymodel>SAFETY_INCREASE</secondarysafetymodel>
+<secondarysafetyuseuncertainty>TRUE</secondarysafetyuseuncertainty>
+<secondarysafetyuseorigin>TRUE</secondarysafetyuseorigin>
+<secondarysafetymdbased>TRUE</secondarysafetymdbased>
+<params type="SnapSettingsParams">
+<uppersurfacetarget>000000000000000000000000000000000000000000000000</uppersurfacetarget>
+<lowersurfacetarget>000000000000000000000000000000000000000000000000</lowersurfacetarget>
+<upperzonetarget>000000000000000000000000000000000000000000000000</upperzonetarget>
+<lowerzonetarget>000000000000000000000000000000000000000000000000</lowerzonetarget>
+<lowerzonelayer>UNDEF</lowerzonelayer>
+<upperzonelayer>UNDEF</upperzonelayer>
+<upperconstantlimit>UNDEF</upperconstantlimit>
+<lowerconstantlimit>UNDEF</lowerconstantlimit>
+<upperlimitdistance>UNDEF</upperlimitdistance>
+<lowerlimitdistance>UNDEF</lowerlimitdistance>
+<proportionlimit>UNDEF</proportionlimit>
+<horizonintersections></horizonintersections>
+<constantupperlimit>TRUE</constantupperlimit>
+<constantlowerlimit>TRUE</constantlowerlimit>
+<snaptargettype>NO_SNAP</snaptargettype>
+<upperreferencetype>TO_TVD</upperreferencetype>
+<lowerreferencetype>TO_TVD</lowerreferencetype>
+<upperstructuralmodelobjid>000000000000000000000000000000000000000000000000</upperstructuralmodelobjid>
+<upperhorizonmodelobjid>000000000000000000000000000000000000000000000000</upperhorizonmodelobjid>
+<lowerstructuralmodelobjid>000000000000000000000000000000000000000000000000</lowerstructuralmodelobjid>
+<lowerhorizonmodelobjid>000000000000000000000000000000000000000000000000</lowerhorizonmodelobjid>
+<upperstructuralmodelname></upperstructuralmodelname>
+<upperhorizonmodelname></upperhorizonmodelname>
+<lowerstructuralmodelname></lowerstructuralmodelname>
+<lowerhorizonmodelname></lowerhorizonmodelname>
+</params>
+</params>
+<data isbulk="TRUE" href="wells__data">
+</data>
+<comp type="TargetsComp" name="Targets" major="TRUE" href="targets" objid="000000000000000000000d1c0000000053c6526c0000002b">
+</comp>
+<comp type="CarnacLogTemplatesComp" name="CarnacLogTemplates" major="TRUE" href="carnaclogtemplates" objid="000000000000000000000d1c0000000053c6526c0000002c">
+</comp>
+<comp type="DrillUnitsComp" name="DrillUnits" major="FALSE" objid="000000000000000000000e880000000057286a0900000075">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>DrillUnits</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<data isbulk="TRUE" href="drillunitscomp_drillunits_data">
+</data>
+</comp>
+<comp type="WollfDeWartSurveyToolsComp" name="SurveyInstruments" major="FALSE" objid="000000000000000000000e880000000057286a0900000076">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>SurveyInstruments</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<data isbulk="TRUE" href="wollfdewartsurveytools comp_surveyinstruments_data">
+</data>
+<comp type="SurveyToolComp" name="good-mag" major="FALSE" objid="000000000000000000000e880000000057286a0900000048">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>good-mag</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<params type="SurveyToolParams">
+<toolname>good-mag</toolname>
+<namedtooltype>MWD</namedtooltype>
+<gyrocompass>0</gyrocompass>
+<reldeptherror>0.0009999998999</reldeptherror>
+<misalignment>0.0017453276032</misalignment>
+<trueincl>0.0087266388888</trueincl>
+<referenceerror>0.0261799166666</referenceerror>
+<drillstringmag>0.004363319444</drillstringmag>
+<manufacturer>unknown</manufacturer>
+<positionalinit>0</positionalinit>
+<positionalrate>0</positionalrate>
+<tvdproportionalinit>0</tvdproportionalinit>
+<tvdproportionalrate>0</tvdproportionalrate>
+<initincl>0</initincl>
+<initaz>0</initaz>
+<finalincl>0</finalincl>
+<finalaz>0</finalaz>
+<shortannot></shortannot>
+<longannot></longannot>
+</params>
+<data isbulk="TRUE" href="surveyinstruments_surveytoolcomp_goodmag_data">
+</data>
+</comp>
+<comp type="SurveyToolComp" name="poor-mag" major="FALSE" objid="000000000000000000000e880000000057286a0900000077">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>poor-mag</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<params type="SurveyToolParams">
+<toolname>poor-mag</toolname>
+<namedtooltype>MWD</namedtooltype>
+<gyrocompass>0</gyrocompass>
+<reldeptherror>0.002</reldeptherror>
+<misalignment>0.0052359833333</misalignment>
+<trueincl>0.0174532777777</trueincl>
+<referenceerror>0.0261799166666</referenceerror>
+<drillstringmag>0.0872663888888</drillstringmag>
+<manufacturer>unknown</manufacturer>
+<positionalinit>0</positionalinit>
+<positionalrate>0</positionalrate>
+<tvdproportionalinit>0</tvdproportionalinit>
+<tvdproportionalrate>0</tvdproportionalrate>
+<initincl>0</initincl>
+<initaz>0</initaz>
+<finalincl>0</finalincl>
+<finalaz>0</finalaz>
+<shortannot></shortannot>
+<longannot></longannot>
+</params>
+<data isbulk="TRUE" href="surveyinstruments_surveytoolcomp_poormag_data">
+</data>
+</comp>
+<comp type="SurveyToolComp" name="poor-gyro" major="FALSE" objid="000000000000000000000e880000000057286a0900000078">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>poor-gyro</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<params type="SurveyToolParams">
+<toolname>poor-gyro</toolname>
+<namedtooltype>FREE_GYRO</namedtooltype>
+<gyrocompass>0.0436331944444</gyrocompass>
+<reldeptherror>0.002</reldeptherror>
+<misalignment>0.0034906555555</misalignment>
+<trueincl>0.0087266388888</trueincl>
+<referenceerror>0.0174532777777</referenceerror>
+<drillstringmag>0</drillstringmag>
+<manufacturer>unknown</manufacturer>
+<positionalinit>0</positionalinit>
+<positionalrate>0</positionalrate>
+<tvdproportionalinit>0</tvdproportionalinit>
+<tvdproportionalrate>0</tvdproportionalrate>
+<initincl>0</initincl>
+<initaz>0</initaz>
+<finalincl>0</finalincl>
+<finalaz>0</finalaz>
+<shortannot></shortannot>
+<longannot></longannot>
+</params>
+<data isbulk="TRUE" href="surveyinstruments_surveytoolcomp_poorgyro_data">
+</data>
+</comp>
+<comp type="SurveyToolComp" name="Rate-Gyro" major="FALSE" objid="000000000000000000000e880000000057286a0900000079">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>Rate-Gyro</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<params type="SurveyToolParams">
+<toolname>Rate-Gyro</toolname>
+<namedtooltype>RATE_GYRO</namedtooltype>
+<gyrocompass>0</gyrocompass>
+<reldeptherror>0.0005</reldeptherror>
+<misalignment>0.0005235987753</misalignment>
+<trueincl>0.0034906585039</trueincl>
+<referenceerror>0.0017453292519</referenceerror>
+<drillstringmag>0</drillstringmag>
+<manufacturer>unknown</manufacturer>
+<positionalinit>0</positionalinit>
+<positionalrate>0</positionalrate>
+<tvdproportionalinit>0</tvdproportionalinit>
+<tvdproportionalrate>0</tvdproportionalrate>
+<initincl>0</initincl>
+<initaz>0</initaz>
+<finalincl>0</finalincl>
+<finalaz>0</finalaz>
+<shortannot></shortannot>
+<longannot></longannot>
+</params>
+<data isbulk="TRUE" href="surveyinstruments_surveytoolcomp_rategyro_data">
+</data>
+</comp>
+<comp type="SurveyToolComp" name="Raw-data-MWD" major="FALSE" objid="000000000000000000000e880000000057286a090000007a">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>Raw-data-MWD</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<params type="SurveyToolParams">
+<toolname>Raw-data-MWD</toolname>
+<namedtooltype>RAW_DATA_MWD</namedtooltype>
+<gyrocompass>0</gyrocompass>
+<reldeptherror>0.001</reldeptherror>
+<misalignment>0.0017453292519</misalignment>
+<trueincl>0.0087266462599</trueincl>
+<referenceerror>0.026179938779</referenceerror>
+<drillstringmag>0.0006981317006</drillstringmag>
+<manufacturer>unknown</manufacturer>
+<positionalinit>0</positionalinit>
+<positionalrate>0</positionalrate>
+<tvdproportionalinit>0</tvdproportionalinit>
+<tvdproportionalrate>0</tvdproportionalrate>
+<initincl>0</initincl>
+<initaz>0</initaz>
+<finalincl>0</finalincl>
+<finalaz>0</finalaz>
+<shortannot></shortannot>
+<longannot></longannot>
+</params>
+<data isbulk="TRUE" href="surveyinstruments_surveytoolcomp_rawdatamwd_data">
+</data>
+</comp>
+<comp type="SurveyToolComp" name="Inertial Gyro" major="FALSE" objid="000000000000000000000e880000000057286a090000007b">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>Inertial Gyro</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<params type="SurveyToolParams">
+<toolname>Inertial Gyro</toolname>
+<namedtooltype>INERTIAL_GYRO</namedtooltype>
+<gyrocompass>0</gyrocompass>
+<reldeptherror>0</reldeptherror>
+<misalignment>0</misalignment>
+<trueincl>0</trueincl>
+<referenceerror>0</referenceerror>
+<drillstringmag>0</drillstringmag>
+<manufacturer>unknown</manufacturer>
+<positionalinit>1</positionalinit>
+<positionalrate>0.015</positionalrate>
+<tvdproportionalinit>0</tvdproportionalinit>
+<tvdproportionalrate>0</tvdproportionalrate>
+<initincl>0</initincl>
+<initaz>0</initaz>
+<finalincl>0</finalincl>
+<finalaz>0</finalaz>
+<shortannot></shortannot>
+<longannot></longannot>
+</params>
+<data isbulk="TRUE" href="surveyinstruments_surveytoolcomp_inertialgyro_data">
+</data>
+</comp>
+<comp type="SurveyToolComp" name="TOTCO" major="FALSE" objid="000000000000000000000e880000000057286a090000007c">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>TOTCO</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<params type="SurveyToolParams">
+<toolname>TOTCO</toolname>
+<namedtooltype>TOTCO</namedtooltype>
+<gyrocompass>0</gyrocompass>
+<reldeptherror>0</reldeptherror>
+<misalignment>0</misalignment>
+<trueincl>0</trueincl>
+<referenceerror>0</referenceerror>
+<drillstringmag>0</drillstringmag>
+<manufacturer>unknown</manufacturer>
+<positionalinit>5</positionalinit>
+<positionalrate>0.05</positionalrate>
+<tvdproportionalinit>0</tvdproportionalinit>
+<tvdproportionalrate>0</tvdproportionalrate>
+<initincl>0</initincl>
+<initaz>0</initaz>
+<finalincl>0</finalincl>
+<finalaz>0</finalaz>
+<shortannot></shortannot>
+<longannot></longannot>
+</params>
+<data isbulk="TRUE" href="surveyinstruments_surveytoolcomp_totco_data">
+</data>
+</comp>
+<comp type="SurveyToolComp" name="Unknown Tool" major="FALSE" objid="000000000000000000000e880000000057286a090000007d">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>Unknown Tool</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<params type="SurveyToolParams">
+<toolname>Unknown Tool</toolname>
+<namedtooltype>UNKNOWN_TOOL</namedtooltype>
+<gyrocompass>0</gyrocompass>
+<reldeptherror>0</reldeptherror>
+<misalignment>0</misalignment>
+<trueincl>0</trueincl>
+<referenceerror>0</referenceerror>
+<drillstringmag>0</drillstringmag>
+<manufacturer>unknown</manufacturer>
+<positionalinit>10</positionalinit>
+<positionalrate>0.1</positionalrate>
+<tvdproportionalinit>0</tvdproportionalinit>
+<tvdproportionalrate>0</tvdproportionalrate>
+<initincl>0</initincl>
+<initaz>0</initaz>
+<finalincl>0</finalincl>
+<finalaz>0</finalaz>
+<shortannot></shortannot>
+<longannot></longannot>
+</params>
+<data isbulk="TRUE" href="surveyinstruments_surveytoolcomp_unknowntool_data">
+</data>
+</comp>
+</comp>
+<comp type="IscwsaSurveyToolsComp" name="SurveyInstruments" major="FALSE" objid="000000000000000000000e880000000057286a090000007e">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>SurveyInstruments</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<data isbulk="TRUE" href="iscwsasurveytoolscomp_surveyinstruments_data">
+</data>
+<comp type="SurveyToolComp" name="basic MWD" major="FALSE" objid="000000000000000000000e880000000057286a090000007f">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>basic MWD</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<params type="IscwsaSrvToolParams">
+<errampl><item>0.004</item>
+<item>0.004</item>
+<item>0.004</item>
+<item>0.0005</item>
+<item>0.0005</item>
+<item>0.0005</item>
+<item>70</item>
+<item>70</item>
+<item>70</item>
+<item>0.0016</item>
+<item>0.0016</item>
+<item>0.0016</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0.2</item>
+<item>0.06</item>
+<item>0.06</item>
+<item>0.6</item>
+<item>0</item>
+<item>0.25</item>
+<item>0.35</item>
+<item>0.00024</item>
+<item>2.2e-07</item>
+<item>0</item>
+<item>0.36</item>
+<item>5000</item>
+<item>0</item>
+<item>0</item>
+</errampl>
+<description></description>
+</params>
+<data isbulk="TRUE" href="surveyinstruments_surveytoolcomp_basicmwd_data">
+</data>
+</comp>
+<comp type="SurveyToolComp" name="Axial interference" major="FALSE" objid="000000000000000000000e880000000057286a0900000080">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>Axial interference</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<params type="IscwsaSrvToolParams">
+<errampl><item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0.004</item>
+<item>0.004</item>
+<item>0.004</item>
+<item>0.0005</item>
+<item>0.0005</item>
+<item>0.0005</item>
+<item>70</item>
+<item>70</item>
+<item>0.0016</item>
+<item>0.0016</item>
+<item>0.2</item>
+<item>0.06</item>
+<item>0.06</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0.35</item>
+<item>0.00024</item>
+<item>2.2e-07</item>
+<item>0</item>
+<item>0.36</item>
+<item>5000</item>
+<item>130</item>
+<item>0.2</item>
+</errampl>
+<description></description>
+</params>
+<data isbulk="TRUE" href="surveyinstruments_surveytoolcomp_axialinterference_data">
+</data>
+</comp>
+</comp>
+</comp>
+</roff>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<roff version="2013.7000" creator="RMS">
+<comp type="WellPicksComp" major="TRUE" objid="000000000000000000000d1c0000000053c6526c0000002d">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name></name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e+000 </color>
+<colormapobjid>000000000000000000000000000000000000000000000000</colormapobjid>
+<legendnames></legendnames>
+</info>
+<params type="TreeMetaDataParams" name="Modelling">
+<filtereditems></filtereditems>
+</params>
+<params type="TreeMetaDataParams" name="Clipboard">
+<filtereditems><item>2CH 0</item>
+</filtereditems>
+</params>
+<params type="TreeMetaDataParams" name="Library">
+<filtereditems><item>2CH 0</item>
+</filtereditems>
+</params>
+<params type="ComponentCoosysParams">
+<fundamental>ANY</fundamental>
+<x_shift>0</x_shift>
+<y_shift>0</y_shift>
+<z_shift>0</z_shift>
+<xy_scale>1</xy_scale>
+<z_scale>-1</z_scale>
+<xy_rotation>0</xy_rotation>
+<type>XYZ</type>
+</params>
+<data isbulk="TRUE" href="wellpickmanager__data">
+</data>
+<comp type="TreePickSetNodeComp" name="Default" major="FALSE" objid="000000000000000000000d1c0000000053c6526c0000002e">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>Default</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+<colormapobjid>000000000000000000000000000000000000000000000000</colormapobjid>
+<legendnames></legendnames>
+</info>
+<params type="WellPickLevel" name="Default">
+<title></title>
+<pickset>000000000000000000000d1c0000000053c6526c00000016</pickset>
+<type></type>
+<object>000000000000000000000000000000000000000000000000</object>
+<attr>0</attr>
+<well>000000000000000000000000000000000000000000000000</well>
+<trajtype>UNDEF</trajtype>
+<attrcode>UNDEF</attrcode>
+</params>
+<data isbulk="TRUE" href="treepicksetnodecomp_default_data">
+</data>
+<comp type="TreePicksTypeHorizonNodeComp" name="Horizon" major="FALSE" objid="000000000000000000000d1c0000000053c6526c0000002f">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>Horizon</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+<colormapobjid>000000000000000000000000000000000000000000000000</colormapobjid>
+<legendnames></legendnames>
+</info>
+<params type="WellPickLevel" name="Horizon">
+<title></title>
+<pickset>000000000000000000000d1c0000000053c6526c00000016</pickset>
+<type>HorizonWellPick</type>
+<object>000000000000000000000000000000000000000000000000</object>
+<attr>0</attr>
+<well>000000000000000000000000000000000000000000000000</well>
+<trajtype>UNDEF</trajtype>
+<attrcode>UNDEF</attrcode>
+</params>
+<data isbulk="TRUE" href="default_treepickstypehorizonnodecomp_horizon_data">
+</data>
+<comp type="TreePicksObjectNodeComp" name="NewHorizon_A" major="FALSE" objid="000000000000000000000d1c0000000053c6526c00000030">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>NewHorizon_A</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>1.0000000e+000 0.0000000e+000 1.6666668e-002 </color>
+<colormapobjid>000000000000000000000000000000000000000000000000</colormapobjid>
+<legendnames></legendnames>
+</info>
+<params type="WellPicksSettings">
+<parentobjid>000000000000000000000000000000000000000000000000</parentobjid>
+<wellpicksetobjid>000000000000000000000000000000000000000000000000</wellpicksetobjid>
+<showmarker>TRUE</showmarker>
+<colortype>SAME_AS_PARENT</colortype>
+<markercolr>-1</markercolr>
+<markercolg>-1</markercolg>
+<markercolb>-1</markercolb>
+<markerradius>0.002</markerradius>
+<markersizing>CONSTANT</markersizing>
+<radiusattribute>-1</radiusattribute>
+<followdip>FALSE</followdip>
+<pieattributes></pieattributes>
+<colortable>000000000000000000000000000000000000000000000000</colortable>
+<referencetype>NONE</referencetype>
+<referencevalue>1</referencevalue>
+<referenceattribute>-1</referenceattribute>
+<placement>0</placement>
+<corrlinecolortype>SAME_AS_PARENT</corrlinecolortype>
+<corrlinecolorr>1</corrlinecolorr>
+<corrlinecolorg>0</corrlinecolorg>
+<corrlinecolorb>0</corrlinecolorb>
+<corrlinepattern>65535</corrlinepattern>
+<corrlinethickness>0.000352777777777</corrlinethickness>
+<corrfillcolortype>SAME_AS_PARENT</corrfillcolortype>
+<corrfillcolorr>1</corrfillcolorr>
+<corrfillcolorg>0</corrfillcolorg>
+<corrfillcolorb>0</corrfillcolorb>
+<corrrockpattern>0</corrrockpattern>
+<corrrockpatterntype>SAME_AS_PARENT</corrrockpatterntype>
+<followfaultdip>TRUE</followfaultdip>
+<tvduncertainty>FALSE</tvduncertainty>
+<applywellfilter>FALSE</applywellfilter>
+<usegroups>FALSE</usegroups>
+<categoryname></categoryname>
+<groupnames></groupnames>
+<wellids></wellids>
+<trajnames></trajnames>
+<filtertrajectoryselection><use_set>TRUE</use_set>
+<set_name>TrajectorySetAdapter</set_name>
+</filtertrajectoryselection>
+<symbolwells>0</symbolwells>
+<symboltrajectoryselection><use_set>FALSE</use_set>
+<set_name></set_name>
+</symboltrajectoryselection>
+<showlabels>FALSE</showlabels>
+<attributelabelorder>ROW</attributelabelorder>
+<attrnumdecimals>2</attrnumdecimals>
+<attroffseteast>0</attroffseteast>
+<attroffsetnorth>0</attroffsetnorth>
+<attroffsetdepth>0</attroffsetdepth>
+<attrshowprefix>FALSE</attrshowprefix>
+<attrshowunit>FALSE</attrshowunit>
+<attrfontsize>0.00352777777777</attrfontsize>
+<attrfontfamily>SANS_SERIF</attrfontfamily>
+<attrfontcolor>#000000</attrfontcolor>
+<attrfontautocolor>FALSE</attrfontautocolor>
+<attrfontbold>FALSE</attrfontbold>
+<attrfontitalic>FALSE</attrfontitalic>
+<attrfontunderline>FALSE</attrfontunderline>
+<attrusefontdefault>FALSE</attrusefontdefault>
+</params>
+<params type="WellPickLevel" name="NewHorizon_A">
+<title></title>
+<pickset>000000000000000000000d1c0000000053c6526c00000016</pickset>
+<type>HorizonWellPick</type>
+<object>000000000000000000000d1c0000000053c6526c0000001d</object>
+<attr>0</attr>
+<well>000000000000000000000000000000000000000000000000</well>
+<trajtype>UNDEF</trajtype>
+<attrcode>UNDEF</attrcode>
+</params>
+<data isbulk="TRUE" href="default_horizon_treepicksobjectnodecomp_newhorizona_data">
+</data>
+</comp>
+<comp type="TreePicksObjectNodeComp" name="NewHorizon_B" major="FALSE" objid="000000000000000000000d1c0000000053c6526c00000031">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>NewHorizon_B</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 1.0000000e+000 0.0000000e+000 </color>
+<colormapobjid>000000000000000000000000000000000000000000000000</colormapobjid>
+<legendnames></legendnames>
+</info>
+<params type="WellPicksSettings">
+<parentobjid>000000000000000000000000000000000000000000000000</parentobjid>
+<wellpicksetobjid>000000000000000000000000000000000000000000000000</wellpicksetobjid>
+<showmarker>TRUE</showmarker>
+<colortype>SAME_AS_PARENT</colortype>
+<markercolr>-1</markercolr>
+<markercolg>-1</markercolg>
+<markercolb>-1</markercolb>
+<markerradius>0.002</markerradius>
+<markersizing>CONSTANT</markersizing>
+<radiusattribute>-1</radiusattribute>
+<followdip>FALSE</followdip>
+<pieattributes></pieattributes>
+<colortable>000000000000000000000000000000000000000000000000</colortable>
+<referencetype>NONE</referencetype>
+<referencevalue>1</referencevalue>
+<referenceattribute>-1</referenceattribute>
+<placement>0</placement>
+<corrlinecolortype>SAME_AS_PARENT</corrlinecolortype>
+<corrlinecolorr>1</corrlinecolorr>
+<corrlinecolorg>0</corrlinecolorg>
+<corrlinecolorb>0</corrlinecolorb>
+<corrlinepattern>65535</corrlinepattern>
+<corrlinethickness>0.000352777777777</corrlinethickness>
+<corrfillcolortype>SAME_AS_PARENT</corrfillcolortype>
+<corrfillcolorr>1</corrfillcolorr>
+<corrfillcolorg>0</corrfillcolorg>
+<corrfillcolorb>0</corrfillcolorb>
+<corrrockpattern>0</corrrockpattern>
+<corrrockpatterntype>SAME_AS_PARENT</corrrockpatterntype>
+<followfaultdip>TRUE</followfaultdip>
+<tvduncertainty>FALSE</tvduncertainty>
+<applywellfilter>FALSE</applywellfilter>
+<usegroups>FALSE</usegroups>
+<categoryname></categoryname>
+<groupnames></groupnames>
+<wellids></wellids>
+<trajnames></trajnames>
+<filtertrajectoryselection><use_set>TRUE</use_set>
+<set_name>TrajectorySetAdapter</set_name>
+</filtertrajectoryselection>
+<symbolwells>0</symbolwells>
+<symboltrajectoryselection><use_set>FALSE</use_set>
+<set_name></set_name>
+</symboltrajectoryselection>
+<showlabels>FALSE</showlabels>
+<attributelabelorder>ROW</attributelabelorder>
+<attrnumdecimals>2</attrnumdecimals>
+<attroffseteast>0</attroffseteast>
+<attroffsetnorth>0</attroffsetnorth>
+<attroffsetdepth>0</attroffsetdepth>
+<attrshowprefix>FALSE</attrshowprefix>
+<attrshowunit>FALSE</attrshowunit>
+<attrfontsize>0.00352777777777</attrfontsize>
+<attrfontfamily>SANS_SERIF</attrfontfamily>
+<attrfontcolor>#000000</attrfontcolor>
+<attrfontautocolor>FALSE</attrfontautocolor>
+<attrfontbold>FALSE</attrfontbold>
+<attrfontitalic>FALSE</attrfontitalic>
+<attrfontunderline>FALSE</attrfontunderline>
+<attrusefontdefault>FALSE</attrusefontdefault>
+</params>
+<params type="WellPickLevel" name="NewHorizon_B">
+<title></title>
+<pickset>000000000000000000000d1c0000000053c6526c00000016</pickset>
+<type>HorizonWellPick</type>
+<object>000000000000000000000d1c0000000053c6526c0000001e</object>
+<attr>0</attr>
+<well>000000000000000000000000000000000000000000000000</well>
+<trajtype>UNDEF</trajtype>
+<attrcode>UNDEF</attrcode>
+</params>
+<data isbulk="TRUE" href="default_horizon_treepicksobjectnodecomp_newhorizonb_data">
+</data>
+</comp>
+</comp>
+<comp type="TreePicksTypeFaultNodeComp" name="Fault" major="FALSE" objid="000000000000000000000d1c0000000053c6526c00000032">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>Fault</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+<colormapobjid>000000000000000000000000000000000000000000000000</colormapobjid>
+<legendnames></legendnames>
+</info>
+<params type="WellPickLevel" name="Fault">
+<title></title>
+<pickset>000000000000000000000d1c0000000053c6526c00000016</pickset>
+<type>FaultWellPick</type>
+<object>000000000000000000000000000000000000000000000000</object>
+<attr>0</attr>
+<well>000000000000000000000000000000000000000000000000</well>
+<trajtype>UNDEF</trajtype>
+<attrcode>UNDEF</attrcode>
+</params>
+<data isbulk="TRUE" href="default_treepickstypefaultnodecomp_fault_data">
+</data>
+</comp>
+<comp type="TreePicksTypeIsochoreNodeComp" name="Isochore" major="FALSE" objid="000000000000000000000d1c0000000053c6526c00000033">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>Isochore</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+<colormapobjid>000000000000000000000000000000000000000000000000</colormapobjid>
+<legendnames></legendnames>
+</info>
+<params type="WellPickLevel" name="Isochore">
+<title></title>
+<pickset>000000000000000000000d1c0000000053c6526c00000016</pickset>
+<type>IsochoreWellPick</type>
+<object>000000000000000000000000000000000000000000000000</object>
+<attr>0</attr>
+<well>000000000000000000000000000000000000000000000000</well>
+<trajtype>UNDEF</trajtype>
+<attrcode>UNDEF</attrcode>
+</params>
+<data isbulk="TRUE" href="default_treepickstypeisochorenodecomp_isochore_data">
+</data>
+</comp>
+<comp type="TreePicksTypeUserDefNodeComp" name="User defined" major="FALSE" objid="000000000000000000000f6400000000571a24890000005e">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>User defined</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+<colormapobjid>000000000000000000000000000000000000000000000000</colormapobjid>
+<legendnames></legendnames>
+</info>
+<params type="WellPickLevel" name="User defined">
+<title></title>
+<pickset>000000000000000000000d1c0000000053c6526c00000016</pickset>
+<type>UserDefWellPick</type>
+<object>000000000000000000000000000000000000000000000000</object>
+<attr>0</attr>
+<well>000000000000000000000000000000000000000000000000</well>
+<trajtype>UNDEF</trajtype>
+<attrcode>UNDEF</attrcode>
+</params>
+<data isbulk="TRUE" href="default_treepickstypeuserdefnodecomp_userdefined_data">
+</data>
+</comp>
+</comp>
+</comp>
+</roff>

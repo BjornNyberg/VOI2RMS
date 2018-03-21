@@ -1,0 +1,18 @@
+Begin GEOMATIC file header
+type                                    = GridFilterComp
+name                                    = 
+projectvisible                          = FALSE
+description                             = 
+category                                = 
+keyname                                 = 
+color                                   = 1.0000000e+000 0.0000000e+000 1.0000000e+000 
+stamp                                   = 1461331852
+extdatasrckey                           = 
+zdomaintag                              = UNKNOWN
+component_obj_id                        = 000000000000000000000e880000000057286a0900000065
+hasparameters                           = FALSE
+elements                                = 0
+shared                                  = FALSE
+filetype                                = BINARY
+fileversion                             = 2013.7000
+End GEOMATIC file header

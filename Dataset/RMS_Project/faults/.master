@@ -1,0 +1,57 @@
+Begin GEOMATIC file header
+type                                    = FaultsComp
+name                                    = 
+projectvisible                          = FALSE
+description                             = 
+category                                = 
+keyname                                 = 
+color                                   = 0.0000000e+000 0.0000000e+000 1.0000000e-003 
+stamp                                   = 1405506158
+extdatasrckey                           = 
+zdomaintag                              = UNKNOWN
+hasparameters                           = TRUE
+kid(1)                                  = faults
+kid(1).type                             = FaultsInputComp
+elements                                = 1
+filetype                                = BINARY
+fileversion                             = 2013.7000
+End GEOMATIC file header
+Begin parameter
+id                                      = ParentParams
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Modelling
+filtereditems.size                      = 0
+End parameter
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Clipboard
+filtereditems.size                      = 1
+filtereditems(1)                        = 2CH 0
+End parameter
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Library
+filtereditems.size                      = 1
+filtereditems(1)                        = 2CH 0
+End parameter
+Begin parameter
+id                                      = GroupingsParams
+autogroupsize                           = 100
+Begin parameter
+id                                      = GroupingParams
+instance_name                           = Displacement
+default                                 = TRUE
+groups.size                             = 4
+groups(1)                               = Normal
+groups(2)                               = Reverse
+groups(3)                               = Strike-slip
+groups(4)                               = Undefined
+colors.size                             = 4
+colors(1)                               = 859045632
+colors(2)                               = 4281541120
+colors(3)                               = 4281597696
+colors(4)                               = 2004317952
+End parameter
+End parameter
+End parameter

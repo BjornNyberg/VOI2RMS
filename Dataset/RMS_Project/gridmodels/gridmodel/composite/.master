@@ -1,0 +1,78 @@
+Begin GEOMATIC file header
+type                                    = MRParameterComp
+name                                    = composite
+projectvisible                          = FALSE
+description                             = 
+category                                = 
+keyname                                 = 
+color                                   = 1.0000000e+000 0.0000000e+000 1.0000000e+000 
+stamp                                   = 1468584626
+extdatasrckey                           = 
+zdomaintag                              = UNKNOWN
+keystring                               = 
+symbol                                  = Parameter3D
+showgridlines                           = FALSE
+showgridtriangles                       = TRUE
+pointcloud                              = FALSE
+linewidth                               = 3.5277777777669984e-004 
+linefactor                              = 1
+linepattern                             = 65535
+simboxmode                              = FALSE
+simboxz                                 = FALSE
+simboxvizstartz                         = -9.9900000e+002 
+faultlinetype                           = 0
+faultlist.size                          = 0
+transparency                            = 0.0000000e+000 
+linecolor                               = 0.0000000e+000 0.0000000e+000 0.0000000e+000 
+faultlinewidth                          = 7.0555555555339969e-004 
+faultlinecolor                          = 0.0000000e+000 0.0000000e+000 0.0000000e+000 
+showbody                                = 0
+contourinc                              = 0.0000000e+000 
+timetag                                 = 
+autoupdate                              = 1
+datatype                                = ParametricBodyParameter
+idirection                              = 0
+jdirection                              = 0
+kdirection                              = 0
+monitoring_size.size                    = 0
+monitored_variables.size                = 0
+monitored_subgrids.size                 = 0
+modelled_facies.size                    = 0
+final_volumefractions.size              = 0
+unconditioned_wells.size                = 0
+unconditioned_obs.size                  = 0
+ternary                                 = 0
+colormin                                = 0.0000000e+000 
+colormax                                = 0.0000000e+000 
+colormapobjid                           = 000000000000000000001bb800000000571ddb410000006b
+autocolorrange                          = 1
+component_obj_id                        = 00000000000000000000243c000000005788c98300000098
+hasparameters                           = TRUE
+kid(1)                                  = realisation.1
+kid(1).type                             = ParameterComp
+elements                                = 1
+realisation_indices.size                = 1
+realisation_indices(1)                  = 0
+shared                                  = FALSE
+data_oid                                = 00000000000000000000243c000000005788c9830000009a
+filetype                                = BINARY
+fileversion                             = 2013.7000
+End GEOMATIC file header
+Begin parameter
+id                                      = ParentParams
+Begin parameter
+id                                      = RealisationParams
+shared                                  = FALSE
+save_option                             = ALL
+savecount                               = 1
+End parameter
+Begin parameter
+id                                      = EmptyCompParams
+names.size                              = 2
+names(1)                                = channels
+names(2)                                = bkg
+values.size                             = 2
+values(1)                               = 1
+values(2)                               = 0
+End parameter
+End parameter

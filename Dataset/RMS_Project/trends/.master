@@ -1,0 +1,50 @@
+Begin GEOMATIC file header
+type                                    = TrendsComp
+name                                    = 
+projectvisible                          = FALSE
+description                             = 
+category                                = 
+keyname                                 = 
+color                                   = 0.0000000e+000 0.0000000e+000 1.0000000e-003 
+stamp                                   = 1405506158
+extdatasrckey                           = 
+zdomaintag                              = UNKNOWN
+hasparameters                           = TRUE
+kid(1)                                  = surfaces
+kid(1).type                             = SurfacesComp
+kid(2)                                  = functionsets
+kid(2).type                             = FunctionSetsComp
+kid(3)                                  = linessets
+kid(3).type                             = PolygonsSetsComp
+kid(4)                                  = pointssets
+kid(4).type                             = PointsSetsComp
+kid(5)                                  = vpcscomp
+kid(5).type                             = VPCsComp
+kid(6)                                  = fpfscomp
+kid(6).type                             = FPFsComp
+kid(7)                                  = classificationpolyparentcomp
+kid(7).type                             = ClassificationPolyParentComp
+elements                                = 7
+filetype                                = BINARY
+fileversion                             = 2013.7000
+End GEOMATIC file header
+Begin parameter
+id                                      = ParentParams
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Modelling
+filtereditems.size                      = 0
+End parameter
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Clipboard
+filtereditems.size                      = 1
+filtereditems(1)                        = 2CH 0
+End parameter
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Library
+filtereditems.size                      = 1
+filtereditems(1)                        = 2CH 0
+End parameter
+End parameter

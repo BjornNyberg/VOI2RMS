@@ -1,0 +1,290 @@
+Begin GEOMATIC file header
+type                                    = HorizonsComp
+name                                    = 
+projectvisible                          = FALSE
+description                             = 
+category                                = 
+keyname                                 = 
+color                                   = 0.0000000e+000 0.0000000e+000 1.0000000e-003 
+stamp                                   = 1405506158
+extdatasrckey                           = 
+zdomaintag                              = UNKNOWN
+logname                                 = 
+usename                                 = TRUE
+Influenceradius                         = 5.0000000e+002 
+component_obj_id                        = 000000000000000000000d1c0000000053c6526c0000001c
+hasparameters                           = TRUE
+kid(1)                                  = newhorizona
+kid(1).type                             = InterpHorizonComp
+kid(2)                                  = newhorizonb
+kid(2).type                             = InterpHorizonComp
+elements                                = 2
+filetype                                = BINARY
+fileversion                             = 2013.7000
+End GEOMATIC file header
+Begin parameter
+id                                      = ParentParams
+Begin parameter
+id                                      = CollectorSetupParams
+use.InterpHorizonComp.DepthSurface.Horizon= TRUE
+End parameter
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Modelling
+filtereditems.size                      = 1
+filtereditems(1)                        = 2OV 0
+End parameter
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Clipboard
+filtereditems.size                      = 1
+filtereditems(1)                        = 2CH 0
+End parameter
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Library
+filtereditems.size                      = 1
+filtereditems(1)                        = 2CH 0
+End parameter
+Begin parameter
+id                                      = FrameParams
+columns                                 = 11
+rows                                    = 35
+xinc                                    = 5.0000000e+001 
+yinc                                    = 5.0000000e+001 
+useinc                                  = TRUE
+xmin                                    = 0.0000000e+000 
+ymin                                    = 0.0000000e+000 
+width                                   = 5.0000000e+002 
+height                                  = 1.7000000e+003 
+angle                                   = 0.0000000e+000 
+droppedobj                              = 000000000000000000000000000000000000000000000000
+End parameter
+Begin parameter
+id                                      = HorizonsGriddingParams2
+instance_name                           = Job1
+uncertain.size                          = 0
+elapsedrealtime                         = 1.2000000104308128e-002 
+elapsedcputime                          = 0.0000000000000000e+000 
+tableoffset                             = 0
+surfreprfloat                           = FALSE
+description.size                        = 0
+opentime                                = 2014-07-16 10:24:07:597
+selectedkids.size                       = 2
+selectedkids(1)                         = NewHorizon_A
+selectedkids(2)                         = NewHorizon_B
+kidnames.size                           = 2
+kidnames(1)                             = NewHorizon_A
+kidnames(2)                             = NewHorizon_B
+usecommonmodel                          = TRUE
+usedepth                                = TRUE
+boundary                                = 000000000000000000000000000000000000000000000000
+boundarytype                            = 0
+makeconsistent                          = FALSE
+wellnames.size                          = 0
+useallwells                             = TRUE
+pickwellobjids.size                     = 0
+useallwellpicks                         = FALSE
+usewellgroups                           = FALSE
+wellcategory                            = 
+wellgroups.size                         = 0
+usepolys                                = FALSE
+polynames.size                          = 0
+insidepoly.size                         = 0
+outsidepoly                             = 2
+insideusedef.size                       = 0
+outside                                 = 0.0000000e+000 
+usefaults                               = FALSE
+condtofault                             = FALSE
+faultmodel                              = 000000000000000000000000000000000000000000000000
+faultdistance                           = 2.0000000e+002 
+usefaultpoly                            = FALSE
+usemidlines                             = FALSE
+faultpolyobjid                          = 000000000000000000000000000000000000000000000000
+midlinesobjid                           = 000000000000000000000000000000000000000000000000
+usezvalue                               = TRUE
+faultcorr                               = FALSE
+faultradius                             = 2.0000000e+002 
+xinc                                    = 5.0000000e+001 
+yinc                                    = 5.0000000e+001 
+horizonbackup                           = FALSE
+Begin parameter
+id                                      = SurfaceGriddingParams
+instance_name                           = Job
+uncertain.size                          = 0
+elapsedrealtime                         = 0.0000000000000000e+000 
+elapsedcputime                          = 0.0000000000000000e+000 
+tableoffset                             = 0
+surfreprfloat                           = FALSE
+description.size                        = 0
+opentime                                = 
+eliminate                               = FALSE
+smoothsecond                            = FALSE
+inputcategory.size                      = 0
+clipinput.size                          = 0
+inputcontainer                          = 0
+usewellinput                            = FALSE
+wellinputs.size                         = 0
+wellpickattri                           = -1
+usetrends                               = FALSE
+trendsurface                            = 000000000000000000000000000000000000000000000000
+outputsurface                           = 
+outputcategory                          = 2
+outputcontainer                         = 0
+outputfolder                            = 000000000000000000000000000000000000000000000000
+clipboardname                           = 
+outputname                              = 
+outputobjid                             = 000000000000000000000000000000000000000000000000
+usefilter                               = FALSE
+userawfilter                            = FALSE
+smooth                                  = FALSE
+usewellcorr                             = FALSE
+usebelowzero                            = FALSE
+belowzeronode                           = 1
+useproperty                             = FALSE
+propertyname                            = 
+propertyid                              = -1
+pickattriname                           = 
+pickattriid                             = -1
+showmessages                            = TRUE
+thicknessnames.size                     = 0
+thicknessids.size                       = 0
+usezmin                                 = FALSE
+zmin                                    = 0.0000000e+000 
+usezmax                                 = FALSE
+zmax                                    = 0.0000000e+000 
+iconizeonclipboard                      = TRUE
+mappedscatteredid                       = 000000000000000000000000000000000000000000000000
+Begin parameter
+id                                      = MBAParams
+faultmodelobjid                         = 000000000000000000000000000000000000000000000000
+horizonname                             = 
+noexpand                                = 0
+noiter                                  = 7
+End parameter
+End parameter
+Begin parameter
+id                                      = SurfaceGriddingParams
+instance_name                           = Job
+uncertain.size                          = 0
+elapsedrealtime                         = 0.0000000000000000e+000 
+elapsedcputime                          = 0.0000000000000000e+000 
+tableoffset                             = 0
+surfreprfloat                           = FALSE
+description.size                        = 0
+opentime                                = 
+eliminate                               = FALSE
+smoothsecond                            = FALSE
+inputcategory.size                      = 0
+clipinput.size                          = 1
+clipinput(1)                            = 000000000000000000000d1c0000000053c6526c0000001f
+inputcontainer                          = 1
+usewellinput                            = FALSE
+wellinputs.size                         = 0
+wellpickattri                           = -1
+usetrends                               = FALSE
+trendsurface                            = 000000000000000000000000000000000000000000000000
+outputsurface                           = 
+outputcategory                          = 2
+outputcontainer                         = 0
+outputfolder                            = 000000000000000000000000000000000000000000000000
+clipboardname                           = 
+outputname                              = Horizon
+outputobjid                             = 000000000000000000000000000000000000000000000000
+usefilter                               = FALSE
+userawfilter                            = FALSE
+smooth                                  = FALSE
+usewellcorr                             = FALSE
+usebelowzero                            = FALSE
+belowzeronode                           = 1
+useproperty                             = FALSE
+propertyname                            = 
+propertyid                              = -1
+pickattriname                           = 
+pickattriid                             = -1
+showmessages                            = TRUE
+thicknessnames.size                     = 0
+thicknessids.size                       = 0
+usezmin                                 = FALSE
+zmin                                    = 0.0000000e+000 
+usezmax                                 = FALSE
+zmax                                    = 0.0000000e+000 
+iconizeonclipboard                      = TRUE
+mappedscatteredid                       = 000000000000000000000d1c0000000053c6526c00000023
+Begin parameter
+id                                      = MBAParams
+faultmodelobjid                         = 000000000000000000000000000000000000000000000000
+horizonname                             = 
+noexpand                                = 0
+noiter                                  = 7
+End parameter
+End parameter
+Begin parameter
+id                                      = SurfaceGriddingParams
+instance_name                           = Job
+uncertain.size                          = 0
+elapsedrealtime                         = 0.0000000000000000e+000 
+elapsedcputime                          = 0.0000000000000000e+000 
+tableoffset                             = 0
+surfreprfloat                           = FALSE
+description.size                        = 0
+opentime                                = 
+eliminate                               = FALSE
+smoothsecond                            = FALSE
+inputcategory.size                      = 0
+clipinput.size                          = 1
+clipinput(1)                            = 000000000000000000000d1c0000000053c6526c0000001f
+inputcontainer                          = 1
+usewellinput                            = FALSE
+wellinputs.size                         = 0
+wellpickattri                           = -1
+usetrends                               = FALSE
+trendsurface                            = 000000000000000000000000000000000000000000000000
+outputsurface                           = 
+outputcategory                          = 2
+outputcontainer                         = 0
+outputfolder                            = 000000000000000000000000000000000000000000000000
+clipboardname                           = 
+outputname                              = Horizon
+outputobjid                             = 000000000000000000000000000000000000000000000000
+usefilter                               = FALSE
+userawfilter                            = FALSE
+smooth                                  = FALSE
+usewellcorr                             = FALSE
+usebelowzero                            = FALSE
+belowzeronode                           = 1
+useproperty                             = FALSE
+propertyname                            = 
+propertyid                              = -1
+pickattriname                           = 
+pickattriid                             = -1
+showmessages                            = TRUE
+thicknessnames.size                     = 0
+thicknessids.size                       = 0
+usezmin                                 = FALSE
+zmin                                    = 0.0000000e+000 
+usezmax                                 = FALSE
+zmax                                    = 0.0000000e+000 
+iconizeonclipboard                      = TRUE
+mappedscatteredid                       = 000000000000000000000d1c0000000053c6526c00000025
+Begin parameter
+id                                      = MBAParams
+faultmodelobjid                         = 000000000000000000000000000000000000000000000000
+horizonname                             = 
+noexpand                                = 0
+noiter                                  = 7
+End parameter
+End parameter
+End parameter
+Begin parameter
+id                                      = ComponentCoosysParams
+fundamental                             = ANY
+x_shift                                 = 0.0000000000000000e+000 
+y_shift                                 = 0.0000000000000000e+000 
+z_shift                                 = 0.0000000000000000e+000 
+xy_scale                                = 1.0000000000000000e+000 
+z_scale                                 = 1.0000000000000000e+000 
+xy_rotation                             = 0.0000000000000000e+000 
+type                                    = XYZ
+End parameter
+End parameter

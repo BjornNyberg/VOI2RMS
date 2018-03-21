@@ -1,0 +1,112 @@
+Begin GEOMATIC file header
+type                                    = ZonesComp
+name                                    = 
+projectvisible                          = FALSE
+description                             = 
+category                                = 
+keyname                                 = 
+color                                   = 0.0000000e+000 0.0000000e+000 1.0000000e-003 
+stamp                                   = 1405506158
+extdatasrckey                           = 
+zdomaintag                              = UNKNOWN
+component_obj_id                        = 000000000000000000000d1c0000000053c6526c00000026
+hasparameters                           = TRUE
+kid(1)                                  = gridmodel
+kid(1).type                             = ZoneComp
+elements                                = 1
+filetype                                = BINARY
+fileversion                             = 2013.7000
+End GEOMATIC file header
+Begin parameter
+id                                      = ParentParams
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Modelling
+filtereditems.size                      = 1
+filtereditems(1)                        = 2OV 0
+End parameter
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Clipboard
+filtereditems.size                      = 1
+filtereditems(1)                        = 2CH 0
+End parameter
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Library
+filtereditems.size                      = 1
+filtereditems(1)                        = 2CH 0
+End parameter
+Begin parameter
+id                                      = GridModelImportParams
+instance_name                           = Job1
+uncertain.size                          = 0
+elapsedrealtime                         = 6.4018997192382813e+001 
+elapsedcputime                          = 0.0000000000000000e+000 
+tableoffset                             = 0
+surfreprfloat                           = FALSE
+description.size                        = 0
+opentime                                = 2014-07-16 12:26:00:230
+Begin parameter
+id                                      = SimGrdeclGridAttrParams
+instance_name                           = Job
+uncertain.size                          = 0
+elapsedrealtime                         = 0.0000000000000000e+000 
+elapsedcputime                          = 0.0000000000000000e+000 
+tableoffset                             = 0
+surfreprfloat                           = FALSE
+description.size                        = 0
+opentime                                = 
+mappinggroup                            = 0
+mappingrules.size                       = 1
+mappingrules(1)                         = 0
+mappingrulestrings.size                 = 1
+mappingrulestrings(1)                   = 
+selectionrule                           = 0
+inputnames.size                         = 0
+tableselectionrules.size                = 0
+usernames.size                          = 0
+targetuserspecified                     = FALSE
+volumeobjid                             = 000000000000000000000d1c0000000053c6526c00000034
+summaryobjid                            = 000000000000000000000000000000000000000000000000
+simfolderobjid                          = 000000000000000000000000000000000000000000000000
+gridfilename                            = H:\RMS\data\data.dat
+initfilename                            = H:\RMS\data\data.dat
+restartfilenames.size                   = 0
+summaryfilename                         = 
+selectedinitparameters.size             = 1
+selectedinitparameters(1)               = data3
+selectedrestartparameters.size          = 0
+selectedrestartwells.size               = 0
+selectedtimesteps.size                  = 0
+readgrid                                = FALSE
+readinit                                = TRUE
+readrestart                             = FALSE
+readsummary                             = FALSE
+readfaults                              = TRUE
+selectsubset                            = FALSE
+usedaterepr                             = FALSE
+converttocornerpoint                    = TRUE
+createoutputfolder                      = FALSE
+keepinactivepillars                     = TRUE
+undefvalue                              = 9.9999994e+027 
+defaultposition.size                    = 0
+fileformat                              = ECLIPSE GRDECL
+datatype                                = VolumeComp
+targetlocation                          = Grid model 1
+vdbcase                                 = 
+targetdefdates.size                     = 0
+targetdefrules.size                     = 0
+targetdefaultrule                       = UPDATE
+End parameter
+End parameter
+Begin parameter
+id                                      = WellLinkTable
+names.size                              = 2
+names(1)                                = INJECTOR
+names(2)                                = VERTICAL
+ids.size                                = 2
+ids(1)                                  = 000000000000000000000e880000000057286a090000005c
+ids(2)                                  = 000000000000000000000e880000000057286a090000004b
+End parameter
+End parameter

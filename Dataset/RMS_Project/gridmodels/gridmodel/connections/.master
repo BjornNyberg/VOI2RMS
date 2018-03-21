@@ -1,0 +1,22 @@
+Begin GEOMATIC file header
+type                                    = MRConnectionsComp
+name                                    = Connections
+projectvisible                          = FALSE
+description                             = 
+category                                = 
+keyname                                 = 
+color                                   = 1.0000000e+000 0.0000000e+000 1.0000000e+000 
+stamp                                   = 1463043069
+extdatasrckey                           = 
+zdomaintag                              = UNKNOWN
+pinchout limit                          = 0.0000000e+000 
+component_obj_id                        = 0000000000000000000011e400000000573440fe00000086
+hasparameters                           = FALSE
+kid(1)                                  = realisation
+kid(1).type                             = ConnectionsComp
+elements                                = 1
+shared                                  = TRUE
+data_oid                                = 0000000000000000000011e400000000573440fe00000080
+filetype                                = BINARY
+fileversion                             = 2013.7000
+End GEOMATIC file header

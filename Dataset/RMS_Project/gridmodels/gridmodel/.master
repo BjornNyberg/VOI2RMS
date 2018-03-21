@@ -1,0 +1,52 @@
+Begin GEOMATIC file header
+type                                    = ZoneComp
+name                                    = Grid model
+projectvisible                          = FALSE
+description                             = 
+category                                = 
+keyname                                 = 
+color                                   = 1.0000000e+000 0.0000000e+000 1.0000000e+000 
+stamp                                   = 1405513321
+extdatasrckey                           = 
+date(1)                                 = 2014.07.16
+time(1)                                 = 14:22:01
+user(1)                                 = install
+release(1)                              = 2012
+operation(1)                            = Created
+description(1)                          = 
+branch(1)                               = 
+build(1)                                = 
+variant(1)                              = 
+zdomaintag                              = UNKNOWN
+surfaceid                               = DepthSurface
+surfacename                             = Horizon
+horizonname(1)                          = NewHorizon_A
+horizonname(2)                          = NewHorizon_B
+smgrid                                  = 0
+component_obj_id                        = 000000000000000000000f680000000053c660e90000008b
+hasparameters                           = TRUE
+kid(1)                                  = topdesign
+kid(1).type                             = MRSurfaceComp
+kid(2)                                  = bottomdesign
+kid(2).type                             = MRSurfaceComp
+kid(3)                                  = volume
+kid(3).type                             = MRVolumeComp
+kid(4)                                  = connections
+kid(4).type                             = MRConnectionsComp
+kid(5)                                  = gridfilter
+kid(5).type                             = MRGridFilterComp
+kid(6)                                  = composite
+kid(6).type                             = MRParameterComp
+elements                                = 6
+filetype                                = BINARY
+fileversion                             = 2013.7000
+End GEOMATIC file header
+Begin parameter
+id                                      = ParentParams
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Modelling
+filtereditems.size                      = 1
+filtereditems(1)                        = 2OV 0
+End parameter
+End parameter

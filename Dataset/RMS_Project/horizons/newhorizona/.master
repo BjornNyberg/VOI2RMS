@@ -1,0 +1,32 @@
+Begin GEOMATIC file header
+type                                    = InterpHorizonComp
+name                                    = NewHorizon_A
+projectvisible                          = FALSE
+description                             = 
+category                                = 
+keyname                                 = 
+color                                   = 1.0000000e+000 0.0000000e+000 0.0000000e+000 
+stamp                                   = 1405506244
+extdatasrckey                           = 
+zdomaintag                              = UNKNOWN
+unconformity                            = FALSE
+intrusion                               = FALSE
+adjustwellsstamp                        = 0
+adjustfaultsstamp                       = 0
+component_obj_id                        = 000000000000000000000d1c0000000053c6526c0000001d
+hasparameters                           = TRUE
+kid(1)                                  = horizon
+kid(1).type                             = MRSurfaceComp
+elements                                = 1
+filetype                                = BINARY
+fileversion                             = 2013.7000
+End GEOMATIC file header
+Begin parameter
+id                                      = ParentParams
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Modelling
+filtereditems.size                      = 1
+filtereditems(1)                        = 2OV 0
+End parameter
+End parameter

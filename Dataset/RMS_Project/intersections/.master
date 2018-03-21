@@ -1,0 +1,51 @@
+Begin GEOMATIC file header
+type                                    = IntersectionsComp
+name                                    = 
+projectvisible                          = FALSE
+description                             = 
+category                                = 
+keyname                                 = 
+color                                   = 0.0000000e+000 0.0000000e+000 1.0000000e-003 
+stamp                                   = 1405506158
+extdatasrckey                           = 
+zdomaintag                              = UNKNOWN
+intersectionmode                        = 1
+depthfillmode                           = 0
+timefillmode                            = 0
+serial                                  = 0
+transparency                            = 0.0000000e+000 
+hasparameters                           = TRUE
+kid(1)                                  = crossplanes
+kid(1).type                             = CrossPlanesComp
+kid(2)                                  = fences
+kid(2).type                             = FencesComp
+kid(3)                                  = multiwellfences
+kid(3).type                             = MultiWellFencesComp
+kid(4)                                  = multiplefences
+kid(4).type                             = MultipleFencesComp
+kid(5)                                  = multiplecrossplanes
+kid(5).type                             = MultipleCrossPlanesComp
+elements                                = 5
+filetype                                = BINARY
+fileversion                             = 2013.7000
+End GEOMATIC file header
+Begin parameter
+id                                      = ParentParams
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Modelling
+filtereditems.size                      = 0
+End parameter
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Clipboard
+filtereditems.size                      = 1
+filtereditems(1)                        = 2CH 0
+End parameter
+Begin parameter
+id                                      = TreeMetaDataParams
+instance_name                           = Library
+filtereditems.size                      = 1
+filtereditems(1)                        = 2CH 0
+End parameter
+End parameter

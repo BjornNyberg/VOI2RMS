@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<roff version="2013.7000" creator="RMS">
+<comp type="TargetsComp" name="Targets" major="TRUE" objid="000000000000000000000d1c0000000053c6526c0000002b">
+<info>
+<description></description>
+<category></category>
+<keyname></keyname>
+<name>Targets</name>
+<extdatasrckey></extdatasrckey>
+<projectvisible>FALSE</projectvisible>
+<color>0.0000000e+000 0.0000000e+000 1.0000000e-003 </color>
+</info>
+<params type="TreeMetaDataParams" name="Modelling">
+<filtereditems><item>2OV 0</item>
+</filtereditems>
+</params>
+<data isbulk="TRUE" href="targets_targets_data">
+</data>
+</comp>
+</roff>

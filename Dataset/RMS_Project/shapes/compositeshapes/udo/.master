@@ -1,0 +1,21 @@
+Begin GEOMATIC file header
+type                                    = MRCompositeShapeComp
+name                                    = UDO
+projectvisible                          = FALSE
+description                             = 
+category                                = 
+keyname                                 = 
+color                                   = 8.2352942e-001 7.0588237e-001 5.4901963e-001 
+stamp                                   = 1468582502
+extdatasrckey                           = 
+zdomaintag                              = UNKNOWN
+component_obj_id                        = 00000000000000000000243c000000005788c98300000097
+hasparameters                           = FALSE
+kid(1)                                  = realisation
+kid(1).type                             = CompositeShapeComp
+elements                                = 1
+shared                                  = TRUE
+data_oid                                = 00000000000000000000243c000000005788c98300000096
+filetype                                = BINARY
+fileversion                             = 2013.7000
+End GEOMATIC file header
