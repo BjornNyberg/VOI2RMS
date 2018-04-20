@@ -57,9 +57,9 @@ def main(python_exe):
             os.remove(fname_out)
 
         if pip_install:
-            pip.main( ["install","networkx"] )
-            pip.main( ["install","pandas"] )
-            pip.main( ["install","matplotlib"] )
+            pip.main( ["install","networkx==1.8",'--upgrade'] )
+            pip.main( ["install","pandas",'--upgrade'] )
+            pip.main( ["install","matplotlib",'--upgrade'] )
         else:
             easy_install.main( ["-U","networkx"] )
             easy_install.main( ["-U","pandas"] )
