@@ -18,27 +18,36 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.'''
 
-import os
+import os,sys,subprocess
+
+dirname = os.path.split(os.path.dirname(sys.executable))
+folder = dirname[1].replace('x64','')
+
+python_exe = os.path.join(dirname[0],folder,'python.exe')
 
 try:
-    from setuptools.command import easy_install
-    pip_install = False
+    import pip
 except Exception:
-    try:
-        pip_install = True
-        import pip
-    except Exception:
-        dirname = os.path.dirname(os.path.realpath('__file__'))
-        fname = os.path.join(dirname,'get-pip.py')
-        os.system(fname)
-        import pip
+    dirname = os.path.dirname(os.path.realpath('__file__'))
+    fname = os.path.join(dirname,'get-pip.py')
+    os.system(fname)
+    import pip
 
 from shutil import copyfile
 from distutils.dir_util import copy_tree
+modules = ['pandas','networkx==1.8','matplotlib']
+
+for module in modules:
+    try:
+        subprocess.check_call([python_exe,'-m', 'pip', 'install','--upgrade', module])
+    except Exception,e:
+        print e
+        continue
 
 def main(python_exe):
     files = ['User_Defined_Object.py','3D22D.py','Shape_Analysis.py']
     try:
+        python_exe = sys.executable.replace('w','')
         for fname in files:
             dirname = os.path.split(os.path.dirname(os.path.realpath('__file__')))
             fname_in = os.path.join(dirname[0],'Scripts',fname)
@@ -55,15 +64,13 @@ def main(python_exe):
                         
             copyfile(fname_out,fname_in)
             os.remove(fname_out)
-
-        if pip_install:
-            pip.main( ["install","networkx==1.8",'--upgrade'] )
-            pip.main( ["install","pandas",'--upgrade'] )
-            pip.main( ["install","matplotlib",'--upgrade'] )
-        else:
-            easy_install.main( ["-U","networkx"] )
-            easy_install.main( ["-U","pandas"] )
-            easy_install.main( ["-U","matplotlib"] )
+            
+        for module in modules:
+            try:
+                subprocess.check_call([python_exe,'-m', 'pip', 'install','--upgrade', module])
+            except Exception,e:
+                print e
+                continue
             
         print '\n Finished'
     except Exception,e:
@@ -71,6 +78,5 @@ def main(python_exe):
         
 if __name__ == "__main__":
 
-    python_exe = r'C:\Python27\ArcGIS10.4\python.exe' #Replace with pathway to the ArcGIS v10.4 python.exe
-    main(python_exe)
+    main(sys.executable)
 
